@@ -12,6 +12,7 @@ ui <- bs4DashPage(
   sidebar=sidebar,
   
   body=bs4DashBody(bs4TabItems(
+          char_tab,
           wc_tab
         )),
   
@@ -44,6 +45,14 @@ server <- function(input, output, session) {
     
     date.sent
   })
+  
+  output$charname <- renderText({
+    as.character(cdata[[input$charpick]][cdata[[input$charpick]]$COL1=="Name","COL2"])
+  })
+  
+  output$chartable <- renderTable({
+    cdata[[input$charpick]]
+  },colnames=FALSE)
 }
 
 # Run the application 

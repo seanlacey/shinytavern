@@ -253,5 +253,17 @@ char.list[["CLWN"]] <- char.list[["CLWN"]] %>%
 char.list[["FLW"]] <- char.list[["FLW"]] %>% 
   add_row(COL1="Drink of Choice",COL2="Full-Bodied Red Wine")
 
+tmp.picker <- tibble()
+
+for(i in 1:length(names(char.list))){
+  tmp.code <- names(char.list)[i]
+  
+  tmp.picker[i,"code"] <- tmp.code
+  tmp.picker[i,"name"] <- char.list[[i]][char.list[[i]]$COL1=="Name","COL2"]
+}
+
+char.list[["charlist"]] <- tmp.picker %>% 
+  arrange(name)
+
 saveRDS(char.list,file="data/chardata.RDS")
 
