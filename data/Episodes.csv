@@ -1,0 +1,211 @@
+EPNUM,EPID,Season,Episode,Name,Date,Length,Live
+1,S01E001,1,1,Hello from the Magic Tavern,2015-03-09,16:52,0
+2,S01E002,1,2,Tom the Traveler,2015-03-17,24:58,0
+3,S01E003,1,3,Flower,2015-03-23,24:00,0
+4,S01E004,1,4,The FML,2015-03-30,29:42,0
+5,S01E005,1,5,Foon's Greatest Swordsman,2015-04-06,23:30,0
+6,S01E006,1,6,The Vermilion Minotaur,2015-04-13,24:06,0
+7,S01E007,1,7,Princess Trachea-Aurelia Belaroth,2015-04-20,23:54,0
+8,S01E008,1,8,Pimbly Nimblebottom,2015-04-27,29:30,0
+9,S01E009,1,9,Goblins,2015-05-04,31:49,0
+10,S01E010,1,10,Homesick,2015-05-11,17:28,0
+11,S01E011,1,11,The Eunuch,2015-05-18,32:15,0
+12,S01E012,1,12,Krom the Barbarian,2015-05-27,30:03,0
+13,S01E013,1,13,Boys' Night,2015-06-01,36:46,0
+14,S01E014,1,14,Music of Foon,2015-06-09,33:27,0
+15,S01E015,1,15,Transdimensional Deliveryman,2015-06-15,29:06,0
+16,S01E016,1,16,Spintax the Green,2015-06-22,34:53,0
+17,S01E017,1,17,D'athaniel Quen'yarvin,2015-06-29,33:10,0
+18,S01E018,1,18,Blemish,2015-07-06,31:46,0
+19,S01E019,1,19,The Namer,2015-07-13,27:14,0
+20,S01E020,1,20,The Wedding Planner,2015-07-21,32:48,0
+21,S01E021,1,21,No Arnie,2015-07-27,27:43,0
+22,S01E022,1,22,Sarah,2015-08-03,30:38,0
+23,S01E023,1,23,Soul Walker,2015-08-10,32:32,0
+24,S01E024,1,24,The Plan,2015-08-17,33:09,0
+25,S01E025,1,25,Eagles,2015-08-24,30:12,0
+26,S01E026,1,26,Hunger Ghost,2015-09-01,33:31,0
+27,S01E027,1,27,Not Dead (Live from Jangleheart Circus),2015-09-08,33:07,1
+28,S01E028,1,28,Forever Girl,2015-09-14,30:06,0
+29,S01E029,1,29,The Scholar (Live from XOXO 2015),2015-09-21,43:51,1
+30,S01E030,1,30,The Midwife,2015-09-28,34:26,0
+31,S01E031,1,31,Bridge Troll,2015-10-06,32:47,0
+32,S01E032,1,32,Offices & Bosses,2015-10-12,37:35,0
+33,S01E033,1,33,Spurt the Elder,2015-10-19,33:15,0
+34,S01E034,1,34,Chunt for Red October,2015-10-26,35:27,0
+35,S01E035,1,35,Earth Stuff,2015-11-02,39:50,0
+36,S01E036,1,36,Low Battery,2015-11-09,23:19,0
+37,S01E037,1,37,Tannakin the Pinglet,2015-11-16,33:31,0
+38,S01E038,1,38,Letters,2015-11-23,38:21,0
+39,S01E039,1,39,Can the Wizard,2015-11-30,27:02,0
+40,S01E040,1,40,Chu Chu's Chow,2015-12-07,33.27,0
+41,S01E041,1,41,Skeleton,2015-12-14,37:13,0
+42,S01E042,1,42,Winter Solstice,2015-12-21,45:25,0
+43,S01BON1,1,Bonus 1,Winter Solstice Bonus,2015-12-28,4:30,0
+44,S01E043,1,43,Sharks,2016-01-04,37:49,0
+45,S01E044,1,44,Arnor the Warrior,2016-01-11,34:45,0
+46,S01E045,1,45,The First Jew of Foon,2016-01-18,33:10,0
+47,S01E046,1,46,Assassin,2016-01-25,34:56,0
+48,S01E047,1,47,Otok's Quest,2016-02-01,34:11,0
+49,S01E048,1,48,DQ Returns,2016-02-08,37:38,0
+50,S01E049,1,49,Princess Phillipa,2016-02-15,36:37,0
+51,S01E050,1,50,Larry Birdman,2016-02-22,34:44,0
+52,S01E051,1,51,Baron Ragoon,2016-02-29,39:51,0
+53,S01E052,1,52,One Year,2016-03-08,38:02,0
+54,S01E053,1,53,Tom the Nominee,2016-03-14,35:23,0
+55,S01E054,1,54,Witch,2016-03-21,36:59,0
+56,S01E055,1,55,Homunculus,2016-03-28,36:19,0
+57,S01E056,1,56,Dungeon Guard,2016-04-03,34:11,0
+58,S01E057,1,57,Dreamclimber,2016-04-12,32:31,0
+59,S01E058,1,58,Keeper of the Doom Horn,2016-04-18,32:59,0
+60,S01E059,1,59,Dr. Ward,2016-04-25,37:21,0
+61,S01E060,1,60,Confidential Courier,2016-05-02,42:16,0
+62,S01E061,1,61,Sheriff,2016-05-09,42:57,0
+63,S01E062,1,62,The Healer (Live from PAX East,2016-05-16,39:23,1
+64,S01E063,1,63,The Singing Sword,2016-05-23,38:41,0
+65,S01E064,1,64,Jamillious the Mauve,2016-05-30,39:33,0
+66,S01E065,1,65,Dancer,2016-06-06,33:29,0
+67,S01E066,1,66,The Curse,2016-06-13,34:11,0
+68,S01E067,1,67,Ooze,2016-06-20,28:48,0
+69,S01E068,1,68,The Princess and the Eunuch,2016-06-27,37:05,0
+70,S01E069,1,69,Halfling Bards,2016-07-04,42:54,0
+71,S01E070,1,70,Goblin Queen,2016-07-11,35:47,0
+72,S01E071,1,71,Two Headed Conjoined Fairy Princess (Live from Stage 773 in Chicago),2016-07-18,42:32,1
+73,S01E072,1,72,Last of the Singled Out Folk,2016-07-25,37:04,0
+74,S01E073,1,73,Chunt's Night (Live from Stage 773),2016-08-01,44:41,1
+75,S01E074,1,74,Letters and Packages,2016-08-08,34:35,0
+76,S01E075,1,75,Make-Up Artist,2016-08-15,29:42,0
+77,S01E076,1,76,Pandenomicon,2016-08-22,44:18,0
+78,S01E077,1,77,The Baron and the Frog,2016-08-29,51:20,0
+79,S01E078,1,78,The Bandit King (Live from the Steppenwolf Theater in Chicago),2016-09-05,41:50,1
+80,S01E079,1,79,Real Estate Agent,2016-09-12,37:12,0
+81,S01E080,1,80,Inta and Nerf,2016-09-19,42:52,0
+82,S01INT1,1,Interlude 1,INTERLUDE - Mirror World,2016-09-26,38:38,0
+83,S01E081,1,81,Siren,2016-10-03,37:01,0
+84,S01E082,1,82,Chunt for Red October 2: Clear and Present Badger,2016-10-10,33:08,0
+85,S01E083,1,83,Tree,2016-10-17,33:32,0
+86,S01E084,1,84,Memory Gremlin,2016-10-24,38:29,0
+87,S01E085,1,85,Unicorn (w/ Peter Sagal),2016-10-31,40:31,0
+88,S01E086,1,86,Overworked Fairy,2016-11-07,40:02,0
+89,S01E087,1,87,"Missing Fathers (Live from Now Hear This in Anaheim, CA)",2016-11-14,1:01:21,1
+90,S01E088,1,88,Dragonborn,2016-11-21,37:55,0
+91,S01E089,1,89,Jyn'Leeviyah the Red (w/ Felicia Day),2016-11-28,43:22,0
+92,S01E090,1,90,Dwarf (w/ Jon Gabrus),2016-12-05,41:24,0
+93,S01E091,1,91,"Magic Turkey (w/ Scott Adsit, Live from the Chicago Podcast Festival)",2016-12-12,57:37,1
+94,S01E092,1,92,Resonance Stone,2016-12-19,40:00,0
+95,S01BON2,1,Bonus 2,Winter Solstice Bonus 2016,2016-12-26,11:26,0
+96,S01E093,1,93,Goblin General,2017-01-02,41:18,0
+97,S01E094,1,94,Sarah for Real,2017-01-09,39:06,0
+98,S01E095,1,95,Tom the Spy,2017-01-16,56:20,0
+99,S01E096,1,96,Mic Test,2017-01-23,54:50,0
+100,S01E097,1,97,Kobold,2017-01-30,50:25,0
+101,S01E098,1,98,King of the Badger,2017-02-06,45:50,0
+102,S01E099,1,99,Push Ups (w/ Michael Hitchcock and Erin Whitehead live from San Francisco Sketchfest,2017-02-13,59:42,1
+103,S01E100,1,100,Usidore's Quest,2017-02-20,1:15:03,0
+104,S01INT2,1,Interlude 2,Chicago,2017-02-27,40:57,0
+105,S01INT3,1,Interlude 3,Cowboy World,2017-03-06,30:32,0
+106,S01INT4,1,Interlude 4,Scenes from Foon,2017-03-13,48:31,0
+107,S02E001,2,1,The Podcast,2017-03-20,46:46,0
+108,S02E002,2,2,Birdman of Hogsface,2017-03-27,40:44,0
+109,S02E003,2,3,Satyr and Beholder (w / Elliott Kalan and Stuart Wellington from The Flop House,2017-04-03,58:32,0
+110,S02E004,2,4,Not the Sheriff,2017-04-10,43:30,0
+111,S02E005,2,5,Jayme and Sayme,2017-04-17,49:29,0
+112,S02E006,2,6,Mouse,2017-04-24,49:53,0
+113,S02E007,2,7,Carfoonist (Live from Emerald City Comic Con),2017-05-01,54:26,1
+114,S02E008,2,8,Dripfang,2017-05-08,45:16,0
+115,S02E009,2,9,Herbalists,2017-05-15,45:02,0
+116,S02E010,2,10,Bro-taur (w/ Colt Cabana),2017-05-22,39:09,0
+117,S02E011,2,11,Surveillance Spider (w/ Cory Doctorow),2017-05-29,29:12,0
+118,S02E012,2,12,Unwed Mother,2017-06-05,44:04,0
+119,S02E013,2,13,Gargoyle Girl,2017-06-12,35:36,0
+120,S02E014,2,14,Elf Help,2017-06-19,47:44,0
+121,S02E015,2,15,But What About Flower?,2017-06-26,35:53,0
+122,S02E016,2,16,Tom the Girlfriend,2017-07-03,41:36,0
+123,S02E017,2,17,Crazy Jared,2017-07-10,38:28,0
+124,S02E018,2,18,The Basement,2017-07-17,40:49,0
+125,S02E019,2,19,Momo,2017-07-24,45:25,0
+126,S02E020,2,20,King Krom,2017-07-31,47:33,0
+127,S02E021,2,21,Gnome,2017-08-07,52:25,0
+128,S02E022,2,22,Twins,2017-08-14,44:07,0
+129,S02E023,2,23,Used Horse Salesman,2017-08-21,46:09,0
+130,S02E024,2,24,Book Club: The Great Gatsby,2017-08-28,58:15,0
+131,S02E025,2,25,"Sit in a Circle (w/ Todd Barry, Janet Varney, Cole Stratton, Matt Besser & Danielle Schneider live from Outside Lands Fest)",2017-09-04,1:12:39,1
+132,S02E026,2,26,A Short One,2017-09-11,36:05,0
+133,S02E027,2,27,But What About Forever Girl?,2017-09-18,49:13,0
+134,S02E028,2,28,"Gettin' Nuts (w/ Paul F. Tompkins, Live from Now Hear This in New York)",2017-09-25,1:02:23,1
+135,S02E029,2,29,Nymph,2017-10-02,44:19,0
+136,S02E030,2,30,Chunt for Red October 3: The Sum of All Rears,2017-10-09,52:23,0
+137,S02E031,2,31,"Bard, Elf and Fortune Teller (Live from Chicago)",2017-10-16,1:04:52,1
+138,S02E032,2,32,Dark Lord's Birthday Party,2017-10-23,1:04:00,0
+139,S02E033,2,33,Necromancer Performance Review,2017-10-30,49:53,0
+140,S02E034,2,34,Pulcifer the Unassuming (w/ Mike Pesca),2017-11-06,45:33,0
+141,S02E035,2,35,New Guy (Live from Brooklyn),2017-11-13,1:08:25,1
+142,S02E036,2,36,Blessed Troll (w/ Dana Gould),2017-11-20,50:05,0
+143,S02E037,2,37,Crone (w/ Janet Varney),2017-11-27,47:36,0
+144,S02E038,2,38,Treasure Chest (w/ Travis McElroy,2017-12-04,1:02:03,0
+145,S02E039,2,39,nymbee and Grundle (w/ Paul and Storm),2017-12-11,56:18,0
+146,S02E040,2,40,Cockatrice (w/ Laura Grey),2017-12-18,46:37,0
+147,S02E041,2,41,Blue Chris-Must (w/ Jessica McKenna and Zach Reino from Off Book),2017-12-25,1:16:10,0
+148,S02E042,2,42,Tomorrow (w/ Jordan Klepper Live from NYCC),2018-01-08,1:11:02,1
+149,S02E043,2,43,Former Bird (w/ Joel Kim Booster),2018-01-15,42:37,0
+150,S02E044,2,44,Deputy Weaver of Parallel Truths (w/ David Plotz live from Washington D.C.),2018-01-22,50:07,1
+151,S02E045,2,45,Night of the Oversharing Dead,2018-01-29,38:41,0
+152,S02E046,2,46,Lightbringers of Hogsface,2018-02-05,52:10,0
+153,S02E047,2,47,Mittens Returns,2018-02-12,54:24,0
+154,S02E048,2,48,Eunuch Tutor,2018-02-19,41:41,0
+155,S02INT1,2,Interlude 1,"Hey Kids, it's a Magic Tavern!",2018-02-26,34:42,0
+156,S02E049,2,49,Three Years,2018-03-05,1:12:09,0
+157,S02E050,2,50,Reply All Wizards,2018-03-12,45:14,0
+158,S02E051,2,51,Squibbert,2018-03-19,51:19,0
+159,S02E052,2,52,Wheel Bear,2018-03-26,47:04,0
+160,S02E053,2,53,Advanced Offices & Bosses,2018-04-02,1:02:04,0
+161,S02E054,2,54,Fangy Yelly,2018-04-09,50:09,0
+162,S02E055,2,55,Road Trip,2018-04-16,1:01:35,0
+163,S02E056,2,56,Jamillious Returns,2018-04-23,53:35,0
+164,S02E057,2,57,Jyn'Leeviyah Returns,2018-04-30,52:47,0
+165,S02E058,2,58,Garbage Lady (w/ Betsy Sodaro Live in LA),2018-05-07,59:05,1
+166,S02E059,2,59,Activia (w/ Tawny Newsome),2018-05-14,45:35,0
+167,S02E060,2,60,Outside (w/ Paul F. Tompkins),2018-05-21,49:56,0
+168,S02E061,2,61,Chunt's House,2018-05-28,51:47,0
+169,S02E062,2,62,The Ruffled Feather (w/ Jessica McKenna and Zach Reino),2018-06-04,57:22,0
+170,S02E063,2,63,Genie (w/ Lauren Lapkus),2018-06-11,47:08,0
+171,S02E064,2,64,Scholar and Ogre,2018-06-18,46:00,0
+172,S02E065,2,65,"Usidore's House (w/ Matt Gourley, Amanda Lund and Mark McConville)",2018-06-25,37:31,0
+173,S02E066,2,66,Boy King (w/ Jordan Morris and Jesse Thorn),2018-07-02,46:03,0
+174,S02E067,2,67,Mole Warriors (w/ Sean Clements and Hayes Davenport of Hollywood Handbook),2018-07-09,54:28,0
+175,S02E068,2,68,But What About the Baron?,2018-07-16,44:02,0
+176,S02E069,2,69,Tavern Heist,2018-07-23,54:44,0
+177,S02E070,2,70,Girls Night,2018-07-30,26:43,0
+178,S02E071,2,71,Castle Nowhere,2018-08-06,48:25,0
+179,S02E072,2,72,Dripfang Returns,2018-08-13,53:15,0
+180,S02E073,2,73,Globulous (Live from Indianapolis w/ Stuart Wellington),2018-08-20,59:48,1
+181,S02E074,2,74,Sweater Quest,2018-08-27,50:19,0
+182,S02E075,2,75,Beyond Sweater Quest,2018-09-03,46:32,0
+183,S02E076,2,76,Activia's Quest,2018-09-10,41:46,0
+184,S02E077,2,77,"Just Todd (w/ Travis McElroy, Live from Indianapolis)",2018-09-17,1:12:19,1
+185,S02E078,2,78,Hunger Ghost Returns,2018-09-24,46:04,0
+186,S02E079,2,79,Doppelganger (w/ Tim Baltz),2018-10-01,43:03,0
+187,S02E080,2,80,Momo and the Mayor (Live from Chicago's iO Theater),2018-10-08,1:10:10,1
+188,S02E081,2,81,Squire,2018-10-15,50:13,0
+189,S02E082,2,82,Chunt for Red October 4: Rainbow Squish,2018-10-22,1:01:30,0
+190,S02E083,2,83,Blemish Returns,2018-10-29,55:42,0
+191,S02E084,2,84,Traach and Treasure,2018-11-05,52:41,0
+192,S02E085,2,85,Gettin' Nuts Season 2 (Live from the Kalamazoo Improv Festival),2018-11-12,1:02:30,1
+193,S02E086,2,86,Hogsface and Chicago,2018-11-19,54:44,0
+194,S02E087,2,87,Blue and Green,2018-11-26,44:21,0
+195,S02E088,2,88,Mittens and Literature,2018-12-03,45:33,0
+196,S02E089,2,89,Book Club: Pride & Prejudice,2018-12-10,1:13:43,0
+197,S02E090,2,90,"What Winter Solstice Means to Me (w/ Tawney Newsome, Symphony Sanders and More, Live from Chicago)",2018-12-17,1:07:33,1
+198,S02BON1,2,Bonus 1,Arnie's Birthday Bonus Scene,2019-01-07,11:26,0
+199,S02E091,2,91,Mysterious Anonymous,2019-01-14,46:40,0
+200,S02E092,2,92,Badgelor Party,2019-01-21,1:02:04,0
+201,S02E093,2,93,Modron (w/ Chris Perkins of Wizards of the Coast,2019-01-28,41:23,0
+202,S02E094,2,94,Mothman (w/ Hank Green),2019-02-04,48:13,0
+203,S02E095,2,95,Woodland Creatures (Live from PodCon with Demi Adejuyigbe and Miel Bredouw),2019-02-11,55:42,1
+204,S02E096,2,96,Tom the Author,2019-02-18,45:13,0
+205,S02E097,2,97,Chunt's Mom,2019-02-25,55:41,0
+206,S02INT2,2,Interlude 2,Hello from the Future,2019-03-04,56:07,0
+207,S02E098,2,98,Chunt's Wedding,2019-03-11,1:14:32,0
+208,S02E099,2,99,The Weapon,2019-03-18,48:44,0
+209,S02E100,2,100,Big Mittens Game,2019-03-25,1:04:11,0
+210,S02E101,2,101,Do NOT Listen,2019-04-01,1:03:00,0
