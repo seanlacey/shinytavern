@@ -6,9 +6,9 @@ sidebar <- bs4DashSidebar(bs4SidebarMenu(
                               icon = "users"
                             ),
                             bs4SidebarMenuItem(
-                              "Word Cloud",
+                              "Character Cloud",
                               tabName = "wordCloud",
-                              icon = "sliders"
+                              icon = "cloud"
                             )),
                           title="TavernApp",
                           src="tavernapplogo.png",

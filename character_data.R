@@ -265,5 +265,11 @@ for(i in 1:length(names(char.list))){
 char.list[["charlist"]] <- tmp.picker %>% 
   arrange(name)
 
-saveRDS(char.list,file="data/chardata.RDS")
+for(i in 1:(length(names(char.list))-1)){
+  char.list[[i]] <- char.list[[i]] %>% 
+    mutate(
+      COL1 = ifelse(!is.na(COL1) & COL1 != "",paste0("<b>",COL1,"</b>"),COL1)
+    )
+}
 
+saveRDS(char.list,file="data/chardata.RDS")
