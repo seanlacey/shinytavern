@@ -3,6 +3,7 @@ library(bs4Dash)
 library(wordcloud2)
 library(lubridate)
 library(shinyWidgets)
+library(dplyr)
 library(DT)
 
 ###Load Data
@@ -28,7 +29,8 @@ char_tab <- bs4TabItem(
       title="Select Character",
       closable=FALSE,
       width=5,
-      solidHeader=TRUE,
+      solidHeader=FALSE,
+      status="dtavern",
       collapsible=FALSE,
       pickerInput(inputId="charpick",
                   label=NULL,
@@ -43,7 +45,8 @@ char_tab <- bs4TabItem(
       title = "Character", 
       closable = FALSE, 
       width = 12,
-      solidHeader = TRUE, 
+      solidHeader = FALSE,
+      status="dtavern",
       collapsible = FALSE,
       tableOutput("chartable")
     )
@@ -53,7 +56,8 @@ char_tab <- bs4TabItem(
       title = "Episodes", 
       closable = FALSE, 
       width = 12,
-      solidHeader = TRUE, 
+      solidHeader = FALSE,
+      status="dtavern",
       collapsible = FALSE,
       DTOutput("chareps")
     )

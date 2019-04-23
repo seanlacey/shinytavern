@@ -1,3 +1,13 @@
+.card-dtavern .card-header {
+  background-color: #230007;
+  color: #FFFFFF;
+}
+
+.card-ltavern .card-header {
+  background-color: #FDFF00;
+  color: #000000;
+}
+
 td {
   border: 1px solid #FFFFFF !important;
 }
