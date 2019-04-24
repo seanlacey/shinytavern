@@ -1,69 +1,71 @@
 ###Load Helpers
 source("helpers.R",local=TRUE)
 
-###Load UI Parts
-source("sidebar.R",local=TRUE)
-
-ui <- bs4DashPage(
-  navbar=bs4DashNavbar(
-    htmlOutput("dateText"),
-    controlbarIcon = "signal"
-  ),
-  
-  sidebar=sidebar,
-  
-  body=bs4DashBody(
-    tags$head(
-      tags$link(rel = "stylesheet", type = "text/css", href = "mystyle.css")
-    ),
-    bs4TabItems(
-      char_tab,
-      wc_tab
-      )
-    ),
-  
-  controlbar=bs4DashControlbar(skin="light"),
-  
-  footer=bs4DashFooter(),
-  
+ui <- argonDashPage(
   title="Hello from the Shiny Tavern!",
-  sidebar_collapsed = TRUE
+  navbar=NULL,
+  sidebar=argonDashSidebar(
+    brand_logo = "tavernapplogo.png",
+    id="tavern-side",
+    side="left",
+    size="md",
+    vertical=TRUE,
+    argonSidebarHeader("Main Menu"),
+    argonSidebarMenu(
+      argonSidebarItem(
+        tabName="charInfo",
+        icon="users",
+        "Character Info"
+      )
+    )
+  ),
+  header=NULL,
+  body=argonDashBody(
+    argonTabItems(
+      argonTabItem(
+        tabName="charInfo",
+        argonRow(
+          argonCard(
+            title="Select Character",
+            width=5,
+            pickerInput(inputId="charpick",
+                        label=NULL,
+                        choices=setNames(as.list(cdata[["charlist"]]$code), cdata[["charlist"]]$name),
+                        selected="AN",   
+                        options = list(
+                          `live-search` = TRUE))
+          )
+        ),
+        argonRow(
+          argonCard(
+            title = "Character",
+            width = 12,
+            tableOutput("chartable")
+          )
+        ),
+        argonRow(
+          argonCard(
+            title = "Episodes", 
+            width = 12,
+            DTOutput("chareps")
+          )
+        )
+      )
+    )
+  ),
+  footer=NULL
 )
 
 server <- function(input, output, session) {
-  output$wordCloud <- renderWordcloud2({
-      wordcloud2(data = tdata[["char_freq"]][,c("word","scalefreq")],
-                 size=0.35,
-                 shape='circle')
-    })
-  
-  output$dateText <- renderText({
-    daydiff <- as.numeric(difftime(today(),tdata[["firstdate"]],units="days")) 
-    yearpart <- floor(daydiff/365.25)
-    monthpart <- round((daydiff - (yearpart*365.25)) / 30.4167)
-    
-    if(monthpart==0){
-      date.sent <- paste("About",yearpart,"years ago",sep=" ")
-    }else if(monthpart==1){
-      date.sent <- paste("About",yearpart,"years and",monthpart,"month ago",sep=" ")
-    }else{
-      date.sent <- paste("About",yearpart,"years and",monthpart,"months ago",sep=" ")
-    }
-    
-    date.sent <- paste0("<b>Time since falling through portal:</b> ",date.sent)
-    
-    date.sent
-  })
-  
   output$charname <- renderText({
     as.character(cdata[[input$charpick]][cdata[[input$charpick]]$COL1=="Name","COL2"])
   })
   
   output$chartable <- renderTable({
     cdata[[input$charpick]]
-    },
-    colnames=FALSE,
-    sanitize.text.function = function(x) x)
+  },
+  colnames=FALSE,
+  sanitize.text.function = function(x) x)
   
   output$chareps <- renderDT({
     if(!is.null(input$charpick) & !is.na(input$charpick)){
@@ -76,9 +78,9 @@ server <- function(input, output, session) {
       out.table  
     }
   },options = list(ordering=FALSE),
-    colnames=c("Episode Number","Name","Date"),
-    rownames=FALSE,
-    class="compact")
+  colnames=c("Episode Number","Name","Date"),
+  rownames=FALSE,
+  class="compact")
 }
 
 # Run the application 
