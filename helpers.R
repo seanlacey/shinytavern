@@ -1,6 +1,4 @@
 library(shiny)
-library(argonR)
-library(argonDash)
 library(wordcloud2)
 library(lubridate)
 library(shinyWidgets)

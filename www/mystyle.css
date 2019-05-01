@@ -1,13 +1,67 @@
-.card-dtavern .card-header {
-  background-color: #230007;
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Merienda+One');
+
+:root {
+  --custom-bg: #332102;
+  --custom-ppr: #E1E2B7;
+}
+
+body {
+  background-color: var(--custom-bg);
+  font-family: 'Indie Flower', cursive;
+  font-size: 18px;
+}
+
+h1 {
   color: #FFFFFF;
+  font-family: 'Merienda One', cursive;
 }
 
-.card-ltavern .card-header {
-  background-color: #FDFF00;
-  color: #000000;
+h4 {
+  color: #FFFFFF;
+  font-family: 'Merienda One', cursive;
 }
 
-td {
-  border: 1px solid #FFFFFF !important;
+.col-sm-3{
+  background-image:url("Parchment-Body.png") !important; 
+}
+
+.dataTable tbody tr {
+  background-color: transparent !important;
+}
+
+.dropdown-menu, .btn {
+  font-size: 20px;
+}
+
+.parchmentTop {
+  background-image:url("Parchment-Body.png") !important;
+  width:730px;
+}
+
+.parchment {
+  position:relative;
+  top:-25px;
+  width:730px;
+  height:38px;
+  background-image:url('Parchment-Top-Blend-trans.png');
+}
+
+.parchmentBottom {
+  position:relative;
+  bottom:-18px;
+  right:-6px;
+  width:730px;
+  height:38px;
+  background-image:url('Parchment-Bottom-Blend-trans.png');
+  margin-bottom:40px;
+  
+}
+
+.parchmentBody {
+  width:610px;
+  padding: 1px 1px 2px 80px;
+}
+
+.parchmentBody td {
+  border: 1px solid transparent !important;
 }

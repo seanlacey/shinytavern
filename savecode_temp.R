@@ -1,25 +1,9 @@
 ###Date Text
   #UI
-htmlOutput("dateText")
+
 
   #Server
-output$dateText <- renderText({
-  daydiff <- as.numeric(difftime(today(),tdata[["firstdate"]],units="days")) 
-  yearpart <- floor(daydiff/365.25)
-  monthpart <- round((daydiff - (yearpart*365.25)) / 30.4167)
-  
-  if(monthpart==0){
-    date.sent <- paste("About",yearpart,"years ago",sep=" ")
-  }else if(monthpart==1){
-    date.sent <- paste("About",yearpart,"years and",monthpart,"month ago",sep=" ")
-  }else{
-    date.sent <- paste("About",yearpart,"years and",monthpart,"months ago",sep=" ")
-  }
-  
-  date.sent <- paste0("<b>Time since falling through portal:</b> ",date.sent)
-  
-  date.sent
-})
+
 
 ###Word Cloud
   #UI
@@ -28,17 +12,13 @@ wc_tab <- bs4TabItem(
   fluidRow(
     bs4Box(
       width = 12,
-      wordcloud2Output("wordCloud", width = "100%", height = "600px")
+      
     )
   )
 )
 
   #Server
-output$wordCloud <- renderWordcloud2({
-  wordcloud2(data = tdata[["char_freq"]][,c("word","scalefreq")],
-             size=0.35,
-             shape='circle')
-})
+
 
 ###Char Name
   #UI
