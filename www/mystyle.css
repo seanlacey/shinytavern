@@ -8,6 +8,10 @@
   color: #000000;
 }
 
+.nav-link.active {
+  background-color: #230007 !important;
+}
+
 td {
   border: 1px solid #FFFFFF !important;
 }

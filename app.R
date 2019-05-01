@@ -7,7 +7,7 @@ source("sidebar.R",local=TRUE)
 ui <- bs4DashPage(
   navbar=bs4DashNavbar(
     htmlOutput("dateText"),
-    controlbarIcon = "signal"
+    controlbarIcon = "wifi"
   ),
   
   sidebar=sidebar,
@@ -22,7 +22,10 @@ ui <- bs4DashPage(
       )
     ),
   
-  controlbar=bs4DashControlbar(skin="light"),
+  controlbar=bs4DashControlbar(title="Available Networks",
+                               icon("signal"),
+                               "Burger King: Weak",
+                               skin="light"),
   
   footer=bs4DashFooter(),
   
@@ -32,9 +35,11 @@ ui <- bs4DashPage(
 
 server <- function(input, output, session) {
   output$wordCloud <- renderWordcloud2({
+      pal <- c("#242038","#9B1D20", "#0E34A0", "#561D25")
       wordcloud2(data = tdata[["char_freq"]][,c("word","scalefreq")],
                  size=0.35,
-                 shape='circle')
+                 shape='circle',
+                 color=rep_len(pal[2:4], nrow(tdata[["char_freq"]])))
     })
   
   output$dateText <- renderText({
