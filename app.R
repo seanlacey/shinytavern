@@ -18,7 +18,6 @@ ui <- bs4DashPage(
     ),
     bs4TabItems(
       char_tab,
-      ep_tab,
       wc_tab
       )
     ),

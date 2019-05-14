@@ -67,44 +67,44 @@ char_tab <- bs4TabItem(
 )
 
 ###Episode Tab
-ep_tab <- bs4TabItem(
-  tabName="eps",
-  fluidRow(
-    bs4Card(
-      title="Select Episode",
-      closable=FALSE,
-      width=5,
-      solidHeader=FALSE,
-      status="dtavern",
-      collapsible=FALSE,
-      pickerInput(inputId="eppick",
-                  label=NULL,
-                  choices=setNames(as.list(cdata[["charlist"]]$code), cdata[["charlist"]]$name),
-                  selected="AN",   
-                  options = list(
-                    `live-search` = TRUE))
-    )
-  ),
-  fluidRow(
-    bs4Card(
-      title = "Character", 
-      closable = FALSE, 
-      width = 12,
-      solidHeader = FALSE,
-      status="dtavern",
-      collapsible = FALSE,
-      tableOutput("chartable")
-    )
-  ),
-  fluidRow(
-    bs4Card(
-      title = "Episodes", 
-      closable = FALSE, 
-      width = 12,
-      solidHeader = FALSE,
-      status="dtavern",
-      collapsible = FALSE,
-      DTOutput("chareps")
-    )
-  )
-)
+# ep_tab <- bs4TabItem(
+#   tabName="eps",
+#   fluidRow(
+#     bs4Card(
+#       title="Select Episode",
+#       closable=FALSE,
+#       width=5,
+#       solidHeader=FALSE,
+#       status="dtavern",
+#       collapsible=FALSE,
+#       pickerInput(inputId="eppick",
+#                   label=NULL,
+#                   choices=setNames(as.list(cdata[["charlist"]]$code), cdata[["charlist"]]$name),
+#                   selected="AN",   
+#                   options = list(
+#                     `live-search` = TRUE))
+#     )
+#   ),
+#   fluidRow(
+#     bs4Card(
+#       title = "Character", 
+#       closable = FALSE, 
+#       width = 12,
+#       solidHeader = FALSE,
+#       status="dtavern",
+#       collapsible = FALSE,
+#       tableOutput("chartable")
+#     )
+#   ),
+#   fluidRow(
+#     bs4Card(
+#       title = "Episodes", 
+#       closable = FALSE, 
+#       width = 12,
+#       solidHeader = FALSE,
+#       status="dtavern",
+#       collapsible = FALSE,
+#       DTOutput("chareps")
+#     )
+#   )
+# )
