@@ -18,6 +18,7 @@ ui <- bs4DashPage(
     ),
     bs4TabItems(
       char_tab,
+      ep_tab,
       wc_tab
       )
     ),
@@ -58,10 +59,6 @@ server <- function(input, output, session) {
     date.sent <- paste0("<b>Time since falling through portal:</b> ",date.sent)
     
     date.sent
-  })
-  
-  output$charname <- renderText({
-    as.character(cdata[[input$charpick]][cdata[[input$charpick]]$COL1=="Name","COL2"])
   })
   
   output$chartable <- renderTable({

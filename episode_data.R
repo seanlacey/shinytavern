@@ -36,6 +36,7 @@ for(i in 1:nrow(ep.df)){
 }
 
 eps <- ep.df %>% 
+  mutate()
   select(EPID,Season,Episode,Date)
 
 ep.list[["eplist"]] <- eps
