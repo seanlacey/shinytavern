@@ -8,12 +8,17 @@ char.list <- list()
 for(i in 1:nrow(char.df)){
   tmp.row <- char.df[i,]
   
+  tmp.link <- ifelse(as.character(tmp.row[,6]) != "",
+                     paste0('<a href="',as.character(tmp.row[,6]),'">',as.character(tmp.row[,6]),'</a>'),
+                     "")
+  
   tmp.col.1 <- c("Name","Actor","Species","Occupation","Link")
   tmp.col.2 <- c(as.character(tmp.row[,2]),
                  as.character(tmp.row[,3]),
                  as.character(tmp.row[,4]),
                  as.character(tmp.row[,5]),
-                 as.character(tmp.row[,6]))
+                 tmp.link
+                 )
   
   tmp.df <- tibble("COL1"=tmp.col.1,
                    "COL2"=tmp.col.2)
