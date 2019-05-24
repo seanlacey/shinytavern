@@ -3,6 +3,15 @@
   color: #FFFFFF;
 }
 
+.bg-primary {
+  background-color: #230007 !important;
+  color: #FFFFFF;
+}
+
+.card-footer {
+  background-color: #FFFFFF;
+}
+
 .card-ltavern .card-header {
   background-color: #FDFF00;
   color: #000000;

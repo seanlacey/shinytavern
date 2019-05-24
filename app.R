@@ -18,13 +18,14 @@ ui <- bs4DashPage(
     ),
     bs4TabItems(
       char_tab,
-      wc_tab
+      wc_tab,
+      ack_tab
       )
     ),
   
   controlbar=bs4DashControlbar(title="Available Networks",
                                icon("signal"),
-                               "Burger King: Weak",
+                               "Burger King: Slight",
                                skin="light"),
   
   footer=bs4DashFooter(),
