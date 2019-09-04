@@ -47,6 +47,10 @@ char.list[["USI"]] <- char.list[["USI"]] %>%
   add_row(COL1="Known Down Under as",COL2="Funkaroo") %>% 
   add_row(COL1="Known in Italiana as",COL2="Pasta Cortez") %>% 
   add_row(COL1="Known in the Great Halls of Terr'akkas as",COL2="Slippery") %>% 
+  add_row(COL1="Known by land as",COL2="Oneif") %>% 
+  add_row(COL1="Known by sea as",COL2="Twoif") %>% 
+  add_row(COL1="Known at the bottom of the sea as",COL2="Floatus") %>% 
+  add_row(COL1="Known in Velsmeer as",COL2="Smanko") %>% 
   add_row(COL1="Known to the Wedding Planners as",COL2="Dale Sprinklesleeves") %>% 
   add_row(COL1="Known to the Gamblers of Chorroth as",COL2="Johann Sebastian Bacharach") %>% 
   add_row(COL1="Known to the Bakers as",COL2="Biscuit Meniscus") %>% 
@@ -142,7 +146,6 @@ char.list[["JTM"]] <- char.list[["JTM"]] %>%
   add_row(COL1="Known to the badgers as",COL2="Jamillious the Realest") %>% 
   add_row(COL1="Known to the vampires as",COL2="My queen to be")
   
-
 # Usidore the Black -------------------------------------------------------
 char.list[["UTB"]] <- char.list[["UTB"]] %>% 
   add_row(COL1="Full Name",COL2="Usidore") %>% 
